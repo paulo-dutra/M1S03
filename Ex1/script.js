@@ -1,4 +1,4 @@
-function procuraMinMax(valores) {
+const procuraMinMax = (valores) => {
     if ( valores == null || valores.length == 0 ) {
         return (console.log("Não é possível encontrar."))
     }
